@@ -19,10 +19,7 @@ module.exports = addMonacoWebpackConfig({
   },
 
   resolve: {
-    extensions: ['.ts', '.tsx', '.js'],
-    alias: {
-      'monaco-editor/(.*)': '@uifabric/monaco-editor/node_modules/monaco-editor/$1'
-    }
+    extensions: ['.ts', '.tsx', '.js']
   },
 
   devtool: 'eval',
